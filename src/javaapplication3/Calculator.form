@@ -22,10 +22,10 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -44,47 +44,48 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="calculatorScreen" alignment="0" pref="270" max="32767" attributes="1"/>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="numberOne7" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonZero" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne8" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonDot" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne11" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonPlus" min="-2" pref="60" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="numberOne6" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne9" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonTwo" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne10" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonThree" min="-2" pref="60" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="numberOne3" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonFour" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Component id="numberOne4" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonFive" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne5" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonSix" min="-2" pref="60" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="numberOne1" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonSeven" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne2" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonEight" min="-2" pref="60" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="numberOne" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="buttonNine" min="-2" pref="60" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="numberOne16" min="-2" pref="60" max="-2" attributes="0"/>
-                              <Component id="numberOne15" min="-2" pref="60" max="-2" attributes="0"/>
-                              <Component id="numberOne14" min="-2" pref="60" max="-2" attributes="0"/>
-                              <Component id="numberOne13" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="buttonClear" alignment="1" max="32767" attributes="1"/>
+                              <Component id="buttonEquals" alignment="1" pref="60" max="32767" attributes="1"/>
+                              <Component id="buttonMinus" alignment="1" pref="60" max="32767" attributes="1"/>
+                              <Component id="buttonMultiply" alignment="1" pref="60" max="32767" attributes="1"/>
+                              <Component id="buttonDivision" alignment="1" pref="60" max="32767" attributes="1"/>
                           </Group>
                       </Group>
                   </Group>
@@ -97,99 +98,104 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                   <Component id="calculatorScreen" min="-2" pref="48" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="buttonClear" pref="57" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="numberOne1" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne2" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne13" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonSeven" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonEight" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonDivision" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonNine" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="numberOne3" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne4" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne5" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne14" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonFour" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonFive" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonSix" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonMultiply" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="numberOne6" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne9" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne10" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne15" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonTwo" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonThree" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonMinus" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="numberOne7" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne8" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne11" min="-2" pref="56" max="-2" attributes="1"/>
-                      <Component id="numberOne16" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonZero" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonDot" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonPlus" min="-2" pref="56" max="-2" attributes="1"/>
+                      <Component id="buttonEquals" alignment="3" min="-2" pref="56" max="-2" attributes="1"/>
                   </Group>
-                  <EmptySpace pref="22" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JTextField" name="calculatorScreen">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calculatorScreenActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne16">
+        <Component class="javax.swing.JButton" name="buttonEquals">
           <Properties>
             <Property name="text" type="java.lang.String" value="="/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne16ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonEqualsActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne15">
+        <Component class="javax.swing.JButton" name="buttonMinus">
           <Properties>
             <Property name="text" type="java.lang.String" value="-"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne15ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonMinusActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne14">
+        <Component class="javax.swing.JButton" name="buttonMultiply">
           <Properties>
             <Property name="text" type="java.lang.String" value="*"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne14ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonMultiplyActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne13">
+        <Component class="javax.swing.JButton" name="buttonDivision">
           <Properties>
             <Property name="text" type="java.lang.String" value="/"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne13ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonDivisionActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne7">
+        <Component class="javax.swing.JButton" name="buttonZero">
           <Properties>
             <Property name="text" type="java.lang.String" value="0"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne7ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonZeroActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne8">
+        <Component class="javax.swing.JButton" name="buttonDot">
           <Properties>
             <Property name="text" type="java.lang.String" value="."/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne8ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonDotActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne5">
+        <Component class="javax.swing.JButton" name="buttonSix">
           <Properties>
             <Property name="text" type="java.lang.String" value="6"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSixActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="numberOne6">
@@ -200,68 +206,77 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne6ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne11">
+        <Component class="javax.swing.JButton" name="buttonPlus">
           <Properties>
             <Property name="text" type="java.lang.String" value="+"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne11ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPlusActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne">
+        <Component class="javax.swing.JButton" name="buttonNine">
           <Properties>
             <Property name="text" type="java.lang.String" value="9"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOneActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonNineActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne9">
+        <Component class="javax.swing.JButton" name="buttonTwo">
           <Properties>
             <Property name="text" type="java.lang.String" value="2"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne9ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonTwoActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne10">
+        <Component class="javax.swing.JButton" name="buttonThree">
           <Properties>
             <Property name="text" type="java.lang.String" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne10ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonThreeActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne1">
+        <Component class="javax.swing.JButton" name="buttonSeven">
           <Properties>
             <Property name="text" type="java.lang.String" value="7"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSevenActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="buttonSevenKeyPressed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne2">
+        <Component class="javax.swing.JButton" name="buttonEight">
           <Properties>
             <Property name="text" type="java.lang.String" value="8"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonEightActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne4">
+        <Component class="javax.swing.JButton" name="buttonFive">
           <Properties>
             <Property name="text" type="java.lang.String" value="5"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonFiveActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="numberOne3">
+        <Component class="javax.swing.JButton" name="buttonFour">
           <Properties>
             <Property name="text" type="java.lang.String" value="4"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberOne3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonFourActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonClear">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClearActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
